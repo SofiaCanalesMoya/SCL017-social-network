@@ -1,0 +1,204 @@
+/* Tablet */
+@media (min-width: 768px){
+.mainLogin{
+    height: 100%;
+}
+.fondoLogo{
+    height: 45%;
+    border-radius: 8px;
+}
+.imagen{
+    width: 230px;
+    height: 220px;
+    margin-top: 0;
+
+}
+.fondoIniciar{
+    height: 55%;
+}
+.saludo{
+    font-size: 24px;
+}
+.parrafoInicio{
+    font-size: 26px;
+}
+.divRegistro{
+    font-size: 18px;
+    margin-top: 80px;
+}
+.btnIniciar {
+    width: 200px;
+    font-size: 16px;
+    margin-top: 40px;
+}
+.fondoLogoRegistro{
+    height: 30%;
+    font-size: 18px;
+
+  }
+.fondoRegistrarse{
+    height: 70%;
+    font-size: 18px;
+}
+
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+#root{
+    display:flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(239, 247, 239);
+}
+.mainLogin {
+    display: flex;
+    flex-direction: row;
+    width: 60%;    
+    margin-top: 5%;
+}
+.fondoLogo{
+  width: 50%;
+  height: 600px;
+  background: rgba(148, 195, 103, 0.52);;
+  border: 1px solid #8BA889;
+  border-radius: 10px;
+
+}
+.imagen{
+    width: 230px;
+    height: 220px;
+    margin-top: 0;
+
+}
+.saludo{
+    font-size: 22px;
+}
+.fondoIniciar{
+    width: 50%;
+    height: 600px;
+    background: whitesmoke;
+    border: 1px solid #8BA889;
+    border-radius: 10px;
+}
+.parrafoInicio{
+    font-size: 22px;
+    margin-top: 80px;
+}
+.divRegistro{
+    margin-top: 60px;
+}
+.mainRegistro {
+    display: flex;
+    flex-direction: row;
+    width: 60%; 
+    height: 600px;
+    margin-top: 5%;
+}
+.fondoLogoRegistro{
+    justify-content: center;
+    width: 50%;
+    height: 600px;
+    background: rgba(148, 195, 103, 0.52);
+    border: 1px solid #8BA889;
+    border-radius: 10px;
+  }
+.fondoRegistrarse{
+    justify-content: center;
+    width: 50%; 
+    background: whitesmoke;
+    border: 1px solid #8BA889;
+    height: 600px;
+    border-radius: 10px;
+    margin:0;
+}
+.mainProfile {
+    display: flex;
+    width: 100%;    
+    height: 100%;
+}
+.mainDatos{
+    width: 60%;
+}
+.btnAtras{
+    height: 45px;
+    width: 180px;
+    font-size: 20px;
+    border: 0px;
+    margin-top: 40px;
+}
+.mainWall{
+    height: 100%;
+    width: 100%;
+}
+.fondoLogoWall{
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+}
+.divBtnNavengacion{
+    display: none;
+
+}
+.tituloMuro{
+    width: 200px;
+}
+.imgLogoWall{
+    width: 150px;
+ }
+ .NavDesktop{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 250px;
+}
+ .imgCerrarDesk{
+    width: 60px;
+    height: 60px;
+    background: none;
+    border: none;
+    background-image: url('img/cerrar-sesion.png');
+    cursor: pointer;
+ }
+ .imgUsuarioDesk{
+     display: none;
+    height: 32px;
+    width: 34px;
+    border-radius: 100%;
+    border: none;
+    background-image: url('img/imgUsuario.png');
+    background-repeat: no-repeat;
+    cursor:pointer;
+ }
+ .fondoMuro{
+     height: auto;
+ }
+ .frameFondoPostear{
+     width: 700px;
+ }
+
+ .inputPostear{
+     width: 90%;
+     align-self: center;
+     height: 70px;
+     text-align: center;
+     font-size: 18px;
+ }
+ .btnPostear{
+    height: 36px;
+    width: 20%; 
+    align-self: center;
+    font-size: 18px;
+ }
+ .postContainer{
+     width: 700px;
+     margin: auto;
+
+ }
+ .container-receta{
+     font-size: 18px;
+ }
+ 
+}
